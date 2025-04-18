@@ -9,11 +9,11 @@ const breadcrumbs: BreadcrumbItem[] = [
     }
 ];
 
-export default function Welcome() {
+export default function About() {
     return (
         <AppLayout breadcrumbs={breadcrumbs}>
-            <Head title="Beranda" />
-            home
+            <Head title="About" />
+            Tentang Kami
         </AppLayout>
     );
 }
