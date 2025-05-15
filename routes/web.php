@@ -9,6 +9,9 @@ Route::get('/', function () {
 Route::get('/cabinet', function () {
     return Inertia::render('cabinet');
 })->name('cabinet');
+Route::get('/struktur', function () {
+    return Inertia::render('struktur');
+})->name('struktur');
 Route::get('/article', function () {
     return Inertia::render('article');
 })->name('article');

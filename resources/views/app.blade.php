@@ -19,6 +19,8 @@
             })();
         </script>
 
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
         {{-- Inline style to set the HTML background color based on our theme in app.css --}}
         <style>
             html {
@@ -42,5 +44,9 @@
     </head>
     <body class="font-sans antialiased">
         @inertia
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init();
+        </script>
     </body>
 </html>
