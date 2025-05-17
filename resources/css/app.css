@@ -162,3 +162,9 @@
         @apply bg-background text-foreground;
     }
 }
+
+/* Custom background color for assets */
+.bg-assets {
+    --tw-bg-opacity: 1;
+    background-color: rgb(17 92 91 / var(--tw-bg-opacity));
+}
